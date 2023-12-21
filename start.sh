@@ -1,0 +1,1 @@
+gunicorn -b :4000 --workers=12 -t 2300 --worker-connections 100 fuspay_wsgi:application --capture-output --log-level=info

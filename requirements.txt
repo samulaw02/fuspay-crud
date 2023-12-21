@@ -1,0 +1,10 @@
+flask
+psycopg2-binary
+Flask-SQLAlchemy
+python-dotenv
+pyjwt
+marshmallow
+bcrypt
+flask-jwt-extended
+pytest
+gunicorn
