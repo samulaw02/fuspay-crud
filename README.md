@@ -62,9 +62,7 @@ To run the game locally, follow these steps:
     -   DATABASE_URL_STAGING=postgresql://postgres@db:5432/simple_crud
     -   DATABASE_URL_PROD=postgresql://...
 
-1. Build Docker Image: `docker-compose build`
-
-1. Run the Image the game: `docker-compose up -d`
+1. Build and Run Docker Image: `docker-compose up --build -d`
 
 
 ### Todo
