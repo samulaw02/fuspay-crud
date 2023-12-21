@@ -59,7 +59,7 @@ To run the game locally, follow these steps:
 
 1. Create a .env file, it should contain the following
     -   FLASK_ENV=staging
-    -   DATABASE_URL_STAGING=postgresql://postgres@db:5432/simple_crud
+    -   DATABASE_URL_STAGING=postgresql://postgres:postgres@db:5432/simple_crud
     -   DATABASE_URL_PROD=postgresql://...
 
 1. Build and Run Docker Image: `docker-compose up --build -d`
